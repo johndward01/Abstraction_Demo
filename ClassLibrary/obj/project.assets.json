@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {
-      "Encapsulation_Demo/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
-        "compile": {
-          "bin/placeholder/Encapsulation_Demo.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Encapsulation_Demo.dll": {}
-        }
-      }
-    }
+    ".NETCoreApp,Version=v3.1": {}
   },
-  "libraries": {
-    "Encapsulation_Demo/1.0.0": {
-      "type": "project",
-      "path": "../Encapsulation_Demo/Encapsulation_Demo.csproj",
-      "msbuildProject": "../Encapsulation_Demo/Encapsulation_Demo.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": [
-      "Encapsulation_Demo >= 1.0.0"
-    ]
+    ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
     "C:\\Users\\johnd\\.nuget\\packages\\": {},
@@ -33,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\johnd\\Desktop\\TA_repo\\16_Encapsulation\\Encapsulation_Demo\\ClassLibrary\\ClassLibrary.csproj",
+      "projectUniqueName": "C:\\Users\\johnd\\Desktop\\TA_repo\\16_C#_Encapsulation\\Encapsulation_Demo\\ClassLibrary\\ClassLibrary.csproj",
       "projectName": "ClassLibrary",
-      "projectPath": "C:\\Users\\johnd\\Desktop\\TA_repo\\16_Encapsulation\\Encapsulation_Demo\\ClassLibrary\\ClassLibrary.csproj",
+      "projectPath": "C:\\Users\\johnd\\Desktop\\TA_repo\\16_C#_Encapsulation\\Encapsulation_Demo\\ClassLibrary\\ClassLibrary.csproj",
       "packagesPath": "C:\\Users\\johnd\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\johnd\\Desktop\\TA_repo\\16_Encapsulation\\Encapsulation_Demo\\ClassLibrary\\obj\\",
+      "outputPath": "C:\\Users\\johnd\\Desktop\\TA_repo\\16_C#_Encapsulation\\Encapsulation_Demo\\ClassLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -56,11 +37,8 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {
-            "C:\\Users\\johnd\\Desktop\\TA_repo\\16_Encapsulation\\Encapsulation_Demo\\Encapsulation_Demo\\Encapsulation_Demo.csproj": {
-              "projectPath": "C:\\Users\\johnd\\Desktop\\TA_repo\\16_Encapsulation\\Encapsulation_Demo\\Encapsulation_Demo\\Encapsulation_Demo.csproj"
-            }
-          }
+          "targetAlias": "netcoreapp3.1",
+          "projectReferences": {}
         }
       },
       "warningProperties": {
@@ -71,6 +49,7 @@
     },
     "frameworks": {
       "netcoreapp3.1": {
+        "targetAlias": "netcoreapp3.1",
         "imports": [
           "net461",
           "net462",
@@ -86,7 +65,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

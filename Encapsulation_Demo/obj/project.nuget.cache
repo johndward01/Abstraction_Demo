@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PrCSbG9CLfSde0bequ30ryaU4IQaHphYyGPM6M4I0jbq5kpvDJhiI43ATMn8I8f4fPBbKTeVVXmzZ5JTxeAjPQ==",
+  "dgSpecHash": "wfe5v4LAqqTjY0eYE6+9lgtOUdz4wztdi/+4C4o0WWX9AixXoxh7yZpqHNK4vnQ2502zMv7+lWPWlCLU3P5Grg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\johnd\\Desktop\\TA_repo\\16_Encapsulation\\Encapsulation_Demo\\Encapsulation_Demo\\Encapsulation_Demo.csproj",
+  "projectFilePath": "C:\\Users\\johnd\\Desktop\\TA_repo\\16_C#_Encapsulation\\Encapsulation_Demo\\Encapsulation_Demo\\Encapsulation_Demo.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
